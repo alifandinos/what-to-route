@@ -1,16 +1,27 @@
-# React + Vite
+# what-to-route
+What to Route. a system to decide what's best for your networking needs
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# What to Route?
 
-Currently, two official plugins are available:
+*A system to decide what's best for your networking needs.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 The Vision
+Traditional network simulators (like Packet Tracer or GNS3) provide a blank canvas and demand manual configuration from scratch. On the other hand, vendor-specific sizing tools often lock you into their own ecosystem. 
 
-## React Compiler
+**What to Route?** is built differently. It is an **Automated Decision Engine** for network architecture. You input your network requirements and physical parameters, and the engine automatically calculates the most optimal IP subnetting, IP assignment for the devices and routing protocols.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ MVP Features (Phase 1)
+- **Smart IP Calculator:** Automatically calculates the most efficient CIDR block, Subnet Mask, and Usable Hosts based on total host requirements.
+- **Routing Decision Engine:** Evaluates scale and recommends the optimal routing protocol (e.g., Static Route vs. OSPF Single Area) based on the number of branch locations.
+- **Real-time Reactive UI:** Instant architecture recommendations as you adjust the parameters.
 
-## Expanding the Oxlint configuration
+## 💻 Tech Stack
+- Frontend: React.js
+- Styling: Tailwind CSS
+- Icons: Lucide React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 👨‍💻 About the Project
+This project was born out of real-world frustrations in field network engineering and infrastructure consultation. It serves as a "living portfolio" that demonstrates architectural logic, subnetting proficiency, and physical network planning far better than a static CV.
+
+---
+*Initiated on: September 17, 2026*
